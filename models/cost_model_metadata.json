@@ -1,0 +1,72 @@
+{
+    "selected_approach": "tweedie",
+    "selection_metric": "tweedie_deviance",
+    "train_years": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "validation_year": 4,
+    "test_year": 5,
+    "features": [
+        "Age_client",
+        "age_of_car_M",
+        "Car_power_M",
+        "Insuredcapital_content_re",
+        "Insuredcapital_continent_re",
+        "Client_Seniority",
+        "gender",
+        "Car_2ndDriver_M",
+        "num_policiesC",
+        "metro_code",
+        "Policy_PaymentMethodA",
+        "Policy_PaymentMethodH",
+        "appartment"
+    ],
+    "validation_results": {
+        "frequency_severity": {
+            "mae": 75.36356194815014,
+            "rmse": 327.067851843705,
+            "tweedie_deviance": 37.51665788786156,
+            "real_mean": 26.308957404365174,
+            "predicted_mean": 52.17096655789699,
+            "real_total": 448409.87,
+            "predicted_total": 889201.9540127963,
+            "total_error_percentage": 98.30115559516928
+        },
+        "tweedie": {
+            "mae": 59.944486412620535,
+            "rmse": 326.0180794962274,
+            "tweedie_deviance": 34.924960746966185,
+            "real_mean": 26.308957404365174,
+            "predicted_mean": 35.9378955833047,
+            "real_total": 448409.87,
+            "predicted_total": 612525.4923218454,
+            "total_error_percentage": 36.59946698359815
+        }
+    },
+    "test_results": {
+        "frequency_severity": {
+            "mae": 67.54367308393147,
+            "rmse": 240.63337931087383,
+            "tweedie_deviance": 34.784814880202525,
+            "real_mean": 20.601458897922313,
+            "predicted_mean": 49.60561489323686,
+            "real_total": 273669.78,
+            "predicted_total": 658960.9882417584,
+            "total_error_percentage": 140.78690319470363
+        },
+        "tweedie": {
+            "mae": 52.54041517468011,
+            "rmse": 239.19369372230068,
+            "tweedie_deviance": 31.984037285992223,
+            "real_mean": 20.601458897922313,
+            "predicted_mean": 33.86093398658953,
+            "real_total": 273669.78,
+            "predicted_total": 449808.6470778553,
+            "total_error_percentage": 64.36182580256222
+        },
+        "selected_approach": "tweedie"
+    }
+}

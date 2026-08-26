@@ -1,0 +1,51 @@
+# Environnement Python
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Variables d'environnement
+.env
+.env.*
+
+# Données générées
+data/processed/*.csv
+
+# Modèles entraînés
+models/*.joblib
+models/*.pkl
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+*.db-shm
+*.db-wal
+
+# Rapports générés
+reports/*.csv
+reports/*.json
+reports/figures/*.png
+reports/figures/*.jpg
+
+# Tests et couverture
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db

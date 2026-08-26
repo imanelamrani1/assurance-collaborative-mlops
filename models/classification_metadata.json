@@ -1,0 +1,57 @@
+{
+    "model_name": "random_forest",
+    "target": "Has_Claim",
+    "threshold": 0.5500000000000002,
+    "train_years": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "test_year": 5,
+    "features": [
+        "Age_client",
+        "age_of_car_M",
+        "Car_power_M",
+        "Insuredcapital_content_re",
+        "Insuredcapital_continent_re",
+        "Client_Seniority",
+        "gender",
+        "Car_2ndDriver_M",
+        "num_policiesC",
+        "metro_code",
+        "Policy_PaymentMethodA",
+        "Policy_PaymentMethodH",
+        "appartment"
+    ],
+    "validation_results": {
+        "logistic_regression": {
+            "accuracy": 0.7138582492372683,
+            "precision": 0.07444326617179216,
+            "recall": 0.40625,
+            "f1_score": 0.12582900161319233,
+            "roc_auc": 0.6193747710937142,
+            "pr_auc": 0.0728987857143685,
+            "threshold": 0.5400000000000001,
+            "optimized_f1_score": 0.12582900161319233
+        },
+        "random_forest": {
+            "accuracy": 0.845400140812016,
+            "precision": 0.10273665320771647,
+            "recall": 0.2650462962962963,
+            "f1_score": 0.14807630132557387,
+            "roc_auc": 0.6557413988463123,
+            "pr_auc": 0.09087610766218446,
+            "threshold": 0.5500000000000002,
+            "optimized_f1_score": 0.14807630132557387
+        }
+    },
+    "test_metrics": {
+        "accuracy": 0.8367208672086721,
+        "precision": 0.08649225840896957,
+        "recall": 0.26129032258064516,
+        "f1_score": 0.1299638989169675,
+        "roc_auc": 0.6488757819982476,
+        "pr_auc": 0.08499556109374193
+    }
+}

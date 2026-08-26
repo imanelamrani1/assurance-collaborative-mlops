@@ -1,0 +1,72 @@
+{
+    "year": 5,
+    "features": [
+        "Age_client",
+        "age_of_car_M",
+        "Car_power_M",
+        "Insuredcapital_content_re",
+        "Insuredcapital_continent_re",
+        "Client_Seniority",
+        "gender",
+        "Car_2ndDriver_M",
+        "num_policiesC",
+        "metro_code",
+        "Policy_PaymentMethodA",
+        "Policy_PaymentMethodH",
+        "appartment"
+    ],
+    "best_number_of_clusters": 6,
+    "target_group_size": 50,
+    "random_state": 42,
+    "cluster_evaluation": [
+        {
+            "number_of_clusters": 2,
+            "inertia": 156153.83712567444,
+            "silhouette": 0.10925409153948248
+        },
+        {
+            "number_of_clusters": 3,
+            "inertia": 142501.126411553,
+            "silhouette": 0.12201518870329742
+        },
+        {
+            "number_of_clusters": 4,
+            "inertia": 132809.6031935988,
+            "silhouette": 0.1186276656862012
+        },
+        {
+            "number_of_clusters": 5,
+            "inertia": 123125.58264131975,
+            "silhouette": 0.13049186080815867
+        },
+        {
+            "number_of_clusters": 6,
+            "inertia": 115556.6492211111,
+            "silhouette": 0.131078856200371
+        },
+        {
+            "number_of_clusters": 7,
+            "inertia": 109215.06219927351,
+            "silhouette": 0.1305423694584757
+        },
+        {
+            "number_of_clusters": 8,
+            "inertia": 104485.30181570732,
+            "silhouette": 0.12616523669308294
+        },
+        {
+            "number_of_clusters": 9,
+            "inertia": 100743.98396253143,
+            "silhouette": 0.12569792241095548
+        },
+        {
+            "number_of_clusters": 10,
+            "inertia": 97343.54319540603,
+            "silhouette": 0.12098793449897981
+        }
+    ],
+    "number_of_groups": 267,
+    "minimum_group_size": 48,
+    "mean_group_size": 49.752808988764045,
+    "maximum_group_size": 51
+}
